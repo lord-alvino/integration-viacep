@@ -10,12 +10,6 @@ And how to filter a list using them.
 1. Start the application with Maven
 2. The API will be accessible at http://localhost:8080
 
-## API Endpoints
-The API provides the following endpoints:
-
-```markdown
-GET /product/category/{{categoryAsPath}}?categoryAsParam=clothes 
-
-```
 ## Database
 The project uses PostgresSQL as the database. The necessary database migrations are managed using Flyway.
+Just create a Database called Product and it should be usable.
