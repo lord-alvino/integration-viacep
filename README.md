@@ -13,3 +13,11 @@ And how to filter a list using them.
 ## Database
 The project uses PostgresSQL as the database. The necessary database migrations are managed using Flyway.
 Just create a Database called Product and it should be usable.
+
+To run the project: 
+
+Create a database on postgres called product
+Open the project on IntelliJ
+Configure the application.properties file with the proper ip/port/database name
+Clean Build (Or maven clean install)
+Run the mainclass 
